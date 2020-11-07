@@ -433,6 +433,23 @@ form input:focus{
     font-weight: bolder;
 }
 
+
+/* ----------------About us--------------------------------- */
+.about-paragraph{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Playball', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.about-paragraph h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    margin-bottom: 3%;
+
+}
+
+
 /* ------------------------Media query------------------------- */
 @media only screen and (max-width:415px){
     .offerColumn{
