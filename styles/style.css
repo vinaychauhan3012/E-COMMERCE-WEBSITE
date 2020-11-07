@@ -1,0 +1,463 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.colNew{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.colNew h1{
+    font-size: 60px;
+    line-height: 60px;
+    padding: 25px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.colNew p{
+    color: #888888;
+}
+.colNew img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.category{
+    max-width: 1080px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    padding-top: 3%;
+}
+.exploreButton{
+    background: #ff523b;
+    padding: 8px 30px;
+    margin: 30px 0;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+    border: 1px solid #fff;
+
+}
+.exploreButton:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #FF3C33;
+}
+.exploreButton:focus{
+    outline: none;
+}
+#features{
+    margin: 0 auto;
+    align-items: center;
+}
+.featuresColumn img{
+    width: 100%;
+}
+.featuresColumn{
+    flex-basis: 25%;
+    padding: 10px;
+    max-width: 200px;
+    margin-bottom: 50px;
+    margin: auto;
+    transition: transform 0.5s;
+    text-align: center;
+}
+.featuresColumn:hover{
+    transform:translateY(-5px) ;
+}
+
+.featureTitle{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3%;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #555;
+
+}
+.latestProdtcsTitle{
+    margin-top: 3%;
+}
+.latestProductColumn2{
+    margin-top: 3%;
+}
+#header{
+    background:radial-gradient(#fff,#ffd6d6) ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;    
+}
+#header .design{
+    background:radial-gradient(#fff,#ffd6d6) ;
+}
+.newRow{
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ------------------OFFER SECTION CSS---------------- */
+#offer{
+    background:radial-gradient(#fff,#ffd6d6) ;
+    margin-top: 3%;
+    padding: 30px 0;
+}
+.col .offerImage{
+    width: 100%;
+    padding: 20px;
+}
+small{
+    color: #555;
+}
+
+.rating .fa{
+    color: #ff523b;
+}
+.rating p{
+    font-size: 15px;
+}
+.textOnImage{
+    max-width: 1300px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+/* ---------------------------Testimonial Section--------------------- */
+#testimonial{
+    text-align: center;
+    margin-bottom: 3%;
+}
+#testimonial .col{
+    padding: 40px 20px;
+    cursor: pointer;
+    /* background-color: #555; */
+    transition: transform 0.5s;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+#testimonial .col img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top:3% ;
+}
+#testimonial .col:hover{
+    transform: translateY(-10px);
+}
+.testimonialcolumn p{
+    font-size: 12px;
+    color: #777;
+}
+.fa-quote-left{
+    color: #ff523b;
+    font-size: 34px;
+}
+#testimonial .col h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #555;
+}
+
+/* -------------footer section---------------- */
+#footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+#footer p{
+    color: #8a8a8a;
+}
+#footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px ;
+}
+.footer-col-1{
+    flex-basis: 20%;
+}
+.footer-col-2{
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+flex-basis: 12%;
+}
+ul{
+    list-style-type: none;
+}
+.appLogo{
+    margin-top: 20px;
+}
+.appLogo img{
+    width: 100px;
+    margin: 2px;
+}
+#footer hr{
+    height: 2px;
+    background-color: #b5b5b5;
+    margin: 10px 0;
+    border: none;
+}
+.copyright{
+    margin: auto;
+    text-align: center;
+}
+
+/* --------------------All Products---------------------------- */
+.allProducts{
+    justify-content: space-between;
+    margin: 100px auto 50;
+}
+.allProducts h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 10px;
+}
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: inline-block;
+    border:  1px solid #ff523b;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 2px;
+}
+.page-btn span:hover{
+    background: #ff523b;
+    color: #fff;
+}
+
+
+/* -------------------------Account Section-------------------------- */
+.rightForm{
+    background: #fff;
+    text-align: left;
+    max-width: 250px;
+    min-width: 150px;
+    margin-right: 20%;
+    border: 1px solid #fff;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+
+}
+.form1{
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+}
+.col .button1{
+    margin-top: 20px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+}
+.col .button1:focus{
+    outline: none;
+}
+
+form button{
+    background: #ff523b;
+    padding: 5px 70px;
+    margin: 10px 0;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;  
+    text-align: center;
+    border: none;
+}
+form button:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #FF3C33;
+}
+form input{
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+form input:focus{
+    outline: none;
+}
+
+
+/* -----------------------single product section--------------------- */
+.single_product{
+    margin-top: 3%;
+}
+.single_product h4{
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 22px;
+}
+.single_product .col_2 img{
+    padding: 0;
+}
+.single_product .col_2{
+    padding: 20px;
+}
+.single_product select{
+    display: block;
+    padding: 10px;
+}
+.single_product input{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ff523b;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.single_product input:focus{
+    outline: none;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-around;
+}
+.small-img-col{
+    cursor: pointer;
+}
+
+/* ----------------------Contact Us ------------------------ */
+#section-heading{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.contact-icon{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.contact-icon img{
+    width:95.69px;
+    height: 85.03px;
+    margin-bottom: 6%;
+}
+.contact-icon h2,h3{
+    font-weight: 600;
+}
+.query-button{
+    background-color:#F5620E;
+}
+.query-button:hover{
+    background-color: #C34B05;
+}
+
+.contact-form{
+    margin-top: 2%;
+    display: block;
+    font-weight: 600;
+    padding-left: 20%;
+    
+}
+.contact-form input:focus{
+    outline-style: none;
+}
+.reach-us{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+.contact-form input{
+    border: 1px solid #F5620E;
+    width: 60%;
+    height: 50px;
+    border-radius: none;
+    padding-left: 10px;
+}
+.contact-form textarea{
+    border: 1px solid #F5620E;
+    border-radius: 10px;
+    width: 60%;
+}
+.contact-form textarea:focus{
+    outline: none;
+}
+.submit-btn-contact-form{
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+/* ----------------------cart page-------------------- */
+.add-cart{
+   
+    text-align: center;
+    margin: auto;
+}
+
+.product img{
+    width: 75px;
+    margin: 3% 7%;
+}
+.price,.total,.quantity{
+    margin-top: 3% ;
+}
+.paytmKaro{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.product-headers{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bolder;
+}
+
+/* ------------------------Media query------------------------- */
+@media only screen and (max-width:415px){
+    .offerColumn{
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .colNew, .featuresColumn, .offerColumn, .testimonialcolumn{
+        flex-basis: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contact-form ,.contact-icon{
+        flex-basis: 100%;
+    }
+}
+@media (max-width: 575.98px){
+    .contact-form ,.contact-icon{
+        flex-basis: 100%;
+    }
+    .submit-btn-contact-form{
+        margin: auto;
+        margin-bottom: 3%;
+    }
+}
